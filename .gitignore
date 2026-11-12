@@ -1,0 +1,9 @@
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+# Exported chat data, never commit
+*.json
+*.csv
+.env
