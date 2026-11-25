@@ -1,0 +1,10 @@
+name: Something went wrong
+description: Tell me what happened.
+labels: [bug]
+body:
+  - type: input
+    attributes: {label: Browser and system, placeholder: "Firefox 140, Windows 11"}
+    validations: {required: true}
+  - type: textarea
+    attributes: {label: What you typed and the red text in the console, description: Remove names. Never paste your token or a screenshot of the Network tab., render: text}
+    validations: {required: true}
